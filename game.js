@@ -13,6 +13,19 @@ $("body").keypress(function(event) {
     }
 });
 
+
+$(document).ready(function() {
+    $("#startInput").focus(function() {
+        if (!gameStarted) {
+            nextSequence();
+            gameStarted = true;
+        }
+    });
+
+    // Trigger the focus on the hidden input field when the page is loaded
+    $("#startInput").focus();
+});
+
 function playSound(song) {
     var audio = new Audio("./sounds/" + song + ".mp3");
     audio.play();
