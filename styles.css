@@ -26,6 +26,15 @@ body {
   border-radius: 20%;
 }
 
+.btnStart{
+  margin: 25px;
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+    border: 5px solid black;
+    border-radius: 10%;
+}
+
 .game-over {
   background-color: red;
   opacity: 0.8;
