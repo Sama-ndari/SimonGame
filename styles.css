@@ -64,6 +64,6 @@ p {
     bottom:0;
     position: relative;
     padding: 2em;
-    font-size: 2em;
+    font-size: 1vh;
     color:#1abc9c;
 }
