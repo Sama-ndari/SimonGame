@@ -27,6 +27,7 @@ function checkScreenWidth(mediaQuery) {
     }
 }
 
+
 // Check screen width on page load
 let mediaQuery = window.matchMedia("(max-width: 1000px)");
 checkScreenWidth(mediaQuery);
